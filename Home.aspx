@@ -10,7 +10,9 @@
 <body>
     <form id="form1" runat="server">
         <div>
+            <asp:Image ID="Image1" runat="server" Height="100px" Width="100px" />
         </div>
+        <asp:Label ID="Label1" runat="server" Text="TIME 1"></asp:Label>
     </form>
 </body>
 </html>
