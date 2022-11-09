@@ -1,9 +1,9 @@
 # copamundo
-### página para acompanhar copa do mundo
+## página para acompanhar copa do mundo
 
 ## requisitos
 * visual studio 19-22
-* restsharp
+* restsharp (nuget)
 * asp.net
 
 ## dicas
