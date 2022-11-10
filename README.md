@@ -8,3 +8,6 @@
 
 ## dicas
 * não confie nos exemplos de restsharp do footapi, eles estão deprecados. use a síntaxe nova, já implementada
+
+## links úteis
+* https://api.nuget.org/v3/index.json
