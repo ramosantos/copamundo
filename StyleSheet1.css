@@ -2,34 +2,38 @@
 html {
     --green: #4c7;
     --light: #5d8;
-    background: var(--green);
+    --yellow: #faea00;
+    background: var(--yellow);
 }
 
 .campo {
     position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    -webkit-transform: rotate(90deg);
+     -moz-transform: rotate(90deg);
+     -o-transform: rotate(90deg);
+     -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    top: 24%;
+    left: 2%;
     width: 80vmin;
     height: 50vmin;
     border: 0.5vmin solid white;
     background-image: radial-gradient(circle at 0% 0%, transparent 1%, white 0 1.5%, transparent 0), radial-gradient(circle at 100% 0%, transparent 1%, white 0 1.5%, transparent 0), radial-gradient(circle at 0% 100%, transparent 1%, white 0 1.5%, transparent 0), radial-gradient(circle at 100% 100%, transparent 1%, white 0 1.5%, transparent 0), radial-gradient(circle at 50% 50%, white 1%, transparent 0), radial-gradient(circle at 50% 50%, transparent 14%, white 0 14.75%, transparent 0), radial-gradient(circle at 16% 50%, transparent 10%, white 0 10.5%, transparent 0), radial-gradient(circle at 84% 50%, transparent 10%, white 0 10.5%, transparent 0), linear-gradient(to right, transparent 49.75%, white 0 50.25%, transparent 0), repeating-linear-gradient(to right, var(--green) 0 10%, var(--light) 0 20%);
 }
 
-    .campo::before {
+    .campo:before {
         content: "";
-        display: block;
         position: absolute;
         width: 7%;
-        top: 50%;
+        top: 37%;
         left: 0;
-        transform: translate(0, -50%);
         height: 25%;
         background: var(--green);
-        box-shadow: inset 0 0 0 5vmin var(--green), 0 0 0 0.35vmin white, 1.2vmin 0 0 1.2vmin var(--green), 1.2vmin 4vmin 0 1.2vmin var(--green), 1.2vmin -4vmin 0 1.2vmin var(--green), 5.2vmin 0 0 5.2vmin var(--light), 5.2vmin 0 0 5.5vmin white, 74.5vmin 0 var(--light), 74.5vmin 0 0 0.35vmin white, 73.3vmin 0 0 1.2vmin var(--light), 73.3vmin 4vmin 0 1.2vmin var(--light), 73.3vmin -4vmin 0 1.2vmin var(--light), 69.2vmin 0 0 5.2vmin var(--green), 69.2vmin 0 0 5.5vmin white, -4vmin 0 0 -2vmin #0003, 78.5vmin 0 0 -2vmin #0003
+        box-shadow: inset 0 0 0 5vmin var(--green), 0 0 0 0.35vmin white, 1.2vmin 0 0 1.2vmin var(--green), 1.2vmin 4vmin 0 1.2vmin var(--green), 1.2vmin -4vmin 0 1.2vmin var(--green), 5.2vmin 0 0 5.2vmin var(--light), 5.2vmin 0 0 5.5vmin white, 74.5vmin 0 var(--light), 74.5vmin 0 0 0.35vmin white, 73.3vmin 0 0 1.2vmin var(--light), 73.3vmin 4vmin 0 1.2vmin var(--light), 73.3vmin -4vmin 0 1.2vmin var(--light), 69.2vmin 0 0 5.2vmin var(--green), 69.2vmin 0 0 5.5vmin white, -4vmin 0 0 -2vmin #0003, 78.5vmin 0 0 -2vmin #0003;
+       
     }
 
-    .campo::after {
+    .campo:after {
         content: "ESCALAÇÃO";
         white-space: pre;
         display: flex;
@@ -38,7 +42,7 @@ html {
         font-size: 4vmin;
         font-weight: bold;
         font-style: italic;
-        color: white;
+        color: black;
         font-family: arial, verdana, sans-serif;
         position: absolute;
         border-radius: 50%;
@@ -46,6 +50,150 @@ html {
         width: 2.5vmin;
         left: 50%;
         top: -7.5%;
-        transform: translate(-50%, -50%);
-       
+    }
+
+
+    
+
+.carrosel {
+    -webkit-perspective: 250px;
+    -moz-perspective: 250px;
+    width: 400px;
+    height: 200px;
+    top: 2%;
+    left: 100px;
+    position: relative;
+    margin: 0 auto;
+}
+   
+
+@-webkit-keyframes efeitoCarrosel {
+    from {
+        -webkit-transform: rotateY(360deg) translateZ(130px) rotateY(-360deg);
+        -moz-transform: rotateY(360deg) translateZ(130px) rotateY(-360deg);
+        z-index: 10;
+        opacity: 1
+    }
+
+    50% {
+        z-index: -10;
+    }
+
+    to {
+        -webkit-transform: rotateY(0deg) translateZ(130px) rotateY(0deg);
+        -moz-transform: rotateY(0deg) translateZ(130px) rotateY(0deg);
+        z-index: 10;
+        opacity: 1
+    }
+}
+
+@-moz-keyframes efeitoCarrosel {
+    from {
+        -moz-transform: rotateY(360deg) translateZ(130px) rotateY(-360deg);
+        z-index: 10;
+        opacity: 1
+    }
+
+    50% {
+        z-index: -10;
+    }
+
+    to {
+        -moz-transform: rotateY(0deg) translateZ(130px) rotateY(0deg);
+        z-index: 10;
+        opacity: 1
+    }
+}
+
+.titular {
+    width: 90px;
+    height: 100px;
+    background-color: #442222;
+    position: absolute;
+    display: flex;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    top: 5px;
+    left: 125px;
+    font-size: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, .5);
+    z-index: 10;
+    animation-name: efeitoCarrosel;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+    .titular:hover {
+        border: solid #fffb00 3px;
+        box-shadow: 0px 0px 10px #4466cc;
+        animation-play-state: paused;
+    }
+    .titular.jogador1 {
+        background: linear-gradient(-229deg, #ffffff, #eb0404, #000000);
+        -webkit-animation-delay: -23s;
+        -moz-animation-delay: -23s;
+        
+    }
+
+    .titular.jogador2 {
+        background: linear-gradient(-229deg, #ffffff, #eb0404, #000000);
+        -webkit-animation-delay: -21s;
+        -moz-animation-delay: -21s;
+    }
+
+    .titular.jogador3 {
+        background: linear-gradient(-229deg, #ffffff, #eb0404, #000000);
+        -webkit-animation-delay: -19s;
+        -moz-animation-delay: -19s;
+    }
+
+    .titular.jogador4 {
+        background: linear-gradient(-229deg, #ffffff, #eb0404, #000000);
+        -webkit-animation-delay: -17s;
+        -moz-animation-delay: -17s;
+    }
+
+    .titular.jogador5 {
+        background: linear-gradient(-229deg, #ffffff, #eb0404, #000000);
+        -webkit-animation-delay: -15s;
+        -moz-animation-delay: -15s;
+    }
+
+    .titular.jogador6 {
+        background: linear-gradient(-229deg, #ffffff, #eb0404, #000000);
+        -webkit-animation-delay: -13s;
+        -moz-animation-delay: -13s;
+    }
+
+    .titular.jogador7 {
+        background: linear-gradient(-229deg, #ffffff, #eb0404, #000000);
+        -webkit-animation-delay: -11s;
+        -moz-animation-delay: -11s;
+    }
+
+    .titular.jogador8 {
+        background: linear-gradient(-229deg, #ffffff, #eb0404, #000000);
+        -webkit-animation-delay: -9s;
+        -moz-animation-delay: -9s;
+    }
+
+    .titular.jogador9 {
+        background: linear-gradient(-229deg, #ffffff, #eb0404, #000000);
+        -webkit-animation-delay: -7s;
+        -moz-animation-delay: -7s;
+    }
+
+    .titular.jogador10 {
+        background: linear-gradient(-229deg, #ffffff, #eb0404, #000000);
+        -webkit-animation-delay: -5s;
+        -moz-animation-delay: -5s;
+    }
+
+    .titular.jogador11 {
+        background: linear-gradient(-229deg, #ffffff, #eb0404, #000000);
+        -webkit-animation-delay: -3s;
+        -moz-animation-delay: -3s;
     }
