@@ -6,10 +6,22 @@ html {
     background: var(--fundo);
 }
 
+.header {
+    height: 50px;
+    width: 100%;
+    margin: 0;
+    background: #eb0404;
+}
+
+.rg {
+    height: 80px;
+    width: auto;
+    margin-left: 2em;
+}
 .campo {
     position: absolute;
     transform: rotate(90deg);
-    top: 30%;
+    top: 40%;
     left: -3em;
     width: 80vmin;
     height: 50vmin;
@@ -57,7 +69,6 @@ html {
     top: 2%;
     left: 100px;
     position: relative;
-    margin: 0 auto;
 }
    
 

@@ -11,7 +11,8 @@
 <body>
     <form id="form1" runat="server">
 
-        <div>
+        <div class="header">
+            <img src = "Germany.png" alt="SETE A UM" class="rg"/>
         </div>
     </form>
     <div class="campo"></div>

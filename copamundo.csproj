@@ -168,6 +168,7 @@
     <Content Include="Content\Site.css" />
     <Content Include="Fake.aspx" />
     <Content Include="favicon.ico" />
+    <Content Include="Germany.png" />
     <Content Include="Global.asax" />
     <Content Include="Home.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
