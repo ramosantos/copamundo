@@ -11,3 +11,4 @@
 
 ## links úteis
 * https://api.nuget.org/v3/index.json
+* https://colorhunt.co/palette/2a363bcf4647f5d061f8f6f6
