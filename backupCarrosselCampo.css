@@ -1,43 +1,7 @@
-﻿
 html {
     --green: #379237;
     --light: #54B435;
-    background: #2a363b;
-}
-
-.header {
-    height: 200px;
-    width: 300px;
-    margin-left:60px;
-    border-radius: 15px;
-    border-color: red;
-    border-width:4px;
-    border-style:solid;
-    
-}
-
-.rg {
-    height: 80px;
-    width: auto;
-    margin-top:15px;
-    margin-left: 2em;
-    border-radius: 15px;
-}
-
-.rg2 {
-    height: 80px;
-    width: auto;
-    margin-top: 15px;
-    margin-left: 4em;
-    border-radius: 15px;
-}
-
-.img_tec {
-    border-radius: 15px;
-    width: 200px;
-    height: 250px;
-    margin-top: 10px;
-    margin-left: 122px
+    background: #FFFFFF;
 }
 
 .campo {

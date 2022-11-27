@@ -1,0 +1,37 @@
+﻿body {
+	color: black;
+    background-color: white;
+	font-family: 'Open Sans','Arial',sans-serif;
+	margin: 2% 5%;
+}
+
+.header {
+	background-color: yellow;
+    height: fit-content;
+    width: 100%;
+}
+
+.rg {
+	float: left;
+    height: 4em;
+    width: auto;
+	margin-right: 1em;
+}
+
+.rgtitle {
+	font-weight: 700;
+	font-size: 28pt;
+	line-height: 1em;
+}
+
+.rgsubtitle {
+	font-size: 16pt;
+}
+
+.img_tec {
+    border-radius: 15px;
+    width: 200px;
+    height: 250px;
+    margin-top: 10px;
+    margin-left: 122px
+}
