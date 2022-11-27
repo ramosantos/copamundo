@@ -12,15 +12,14 @@
     <form id="form1" runat="server">
 
         <div class="header">
-            <img src = "Germany.png" alt="SETE A UM" class="rg"/>
-        </div>
+            <img src = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAANlBMVEUAAAD/zgDdAADu7u6DAADjAAD6qAD/0QD/5Hf/zAB3d3fsd3fz8/Nra2twd3e8d3frb3f80XfytpqNAAABMUlEQVR4nO3PiVECURQAwY+C3Cj5J2sUW1v9mI5gZj2+h1vPNd1t74DNdejr0Nehr0Nfh74OfR36OvR16OvQ16GvQ1+Hvg59Hfo69HXo69DXoa9DX4e+Dn0d+jr0dejr0Nehr0Nfh74OfR36OvR16OvQ16Fv/uFr74DN/R6HW/fTcOv+NVyHvg59Hfo69HXo69DXoa9DX4e+Dn0d+jr0dejr0Nehr0Nfh74OfR36OvR16OvQ16GvQ1+Hvg59Hfo69HXo69DXoa9DX4e+Dn0d+j7g8G/vgq2t989w63I4z7Yu18NsHfo69HXo69DXoa9DX4e+Dn0d+jr0dejr0Nehr0Nfh74OfR36OvR16OvQ16GvQ1+Hvg59Hfo69HXo69DXoa9DX4e+Dn0d+jr0dejr0PcP97bgXTsVXRUAAAAASUVORK5CYII=" alt="Logo" class="rg"/>
+            <img class="rg2" src = "https://w7.pngwing.com/pngs/978/805/png-transparent-deutscher-fussball-bund-logo-germany-national-football-team-germany-women-s-national-football-team-2014-fifa-world-cup-brazil-v-germany-german-football-association-germany-football.png" />
+          </div>
     </form>
     <div class="campo"></div>
-    <div class="img_tec">
-        <img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC1Si_XN5oHFFgyfouaOvpjOui3pSb8QaJ-HJbMqn3C9Qeg7dn" alt="técnico"  width="150" height="200"/>
-    </div>
-    <div class="img_tec2">
-        <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/20180602_FIFA_Friendly_Match_Austria_vs._Germany_Joshua_Kimmich_850_0717.jpg/265px-20180602_FIFA_Friendly_Match_Austria_vs._Germany_Joshua_Kimmich_850_0717.jpg" alt="assistente técnico"  idth="150" height="200"/>
-    </div>
+    
+        <img class="img_tec" src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC1Si_XN5oHFFgyfouaOvpjOui3pSb8QaJ-HJbMqn3C9Qeg7dn" alt="técnico"/>
+   
+      
 </body>
 </html>
