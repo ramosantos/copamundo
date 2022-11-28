@@ -1,37 +1,98 @@
 ﻿body {
-	color: black;
+    color: black;
     background-color: white;
-	font-family: 'Open Sans','Arial',sans-serif;
-	margin: 2% 5%;
+    font-family: 'Open Sans','Arial',sans-serif;
+    margin: 1em 3em;
 }
 
-.header {
-	background-color: yellow;
+#header {
+    /*background-color: yellow;*/
     height: fit-content;
     width: 100%;
+    margin-bottom: 2em;
 }
 
 .rg {
-	float: left;
+    float: left;
     height: 4em;
     width: auto;
-	margin-right: 1em;
+    margin-right: 1em;
 }
 
-.rgtitle {
-	font-weight: 700;
-	font-size: 28pt;
-	line-height: 1em;
+#Label1 {
+    font-weight: 700;
+    line-height: 1em;
+    font-size: 28pt;
 }
 
-.rgsubtitle {
-	font-size: 16pt;
+#Label2 {
+    font-size: 14pt;
 }
 
-.img_tec {
-    border-radius: 15px;
-    width: 200px;
-    height: 250px;
-    margin-top: 10px;
-    margin-left: 122px
+#coaches {
+    /*background-color: lightcoral;*/
+    border: solid 2px black;
+    height: fit-content;
+    width: 300px;
+}
+
+#coachbox {
+    /*background-color: lightblue;*/
+    padding: 10px;
+    width: auto;
+    height: 5em;
+}
+
+#coachline {
+    color: lightgray;
+    margin: 0;
+}
+
+#coachimage {
+    float: left;
+    height: 5em;
+    width: auto;
+}
+
+#Label3 {
+    font-weight: 400;
+    font-size: 10pt;
+}
+
+#Label4 {
+    font-weight: 700;
+    font-size: 18pt;
+}
+
+.coachdesc {
+    /*background-color: lightpink;*/
+    margin-left: 10px;
+    line-height: 1em;
+}
+
+#subcoachbox {
+    /*background-color: lightgreen;*/
+    padding: 10px;
+}
+
+#subcoachimage {
+    height: 3em;
+    width: auto;
+    float: left;
+}
+
+#Label5 {
+    font-weight: 400;
+    font-size: 8pt;
+}
+
+#Label6 {
+    font-weight: 700;
+    font-size: 16pt;
+}
+
+@media (max-width:880px) {
+    #header {
+        width: 790px
+    }
 }

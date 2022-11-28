@@ -176,6 +176,8 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Home.aspx" />
+    <Content Include="Resources\coach1.jpg" />
+    <Content Include="Resources\coach2.jpg" />
     <Content Include="Resources\logo.png" />
     <Content Include="Resources\flag.png" />
     <Content Include="Scripts\bootstrap.bundle.js" />

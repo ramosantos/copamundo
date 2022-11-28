@@ -1,5 +1,7 @@
 ﻿using System;
 
+// some info: 790px de largura no minimo TODO.
+
 namespace copamundo
 {
     public partial class Home : System.Web.UI.Page
