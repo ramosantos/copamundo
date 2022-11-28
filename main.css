@@ -5,6 +5,8 @@
     margin: 1em 3em;
 }
 
+/*HEADER ELEMENTS*/
+
 #header {
     /*background-color: yellow;*/
     height: fit-content;
@@ -15,6 +17,7 @@
 .rg {
     float: left;
     height: 4em;
+    border-radius: 10px;
     width: auto;
     margin-right: 1em;
 }
@@ -29,9 +32,12 @@
     font-size: 14pt;
 }
 
+/*COACHES BOX*/
+
 #coaches {
     /*background-color: lightcoral;*/
     border: solid 2px black;
+    border-radius: 10px;
     height: fit-content;
     width: 300px;
 }
@@ -49,6 +55,7 @@
 }
 
 #coachimage {
+    border: 1px solid darkgray;
     float: left;
     height: 5em;
     width: auto;
@@ -76,6 +83,7 @@
 }
 
 #subcoachimage {
+    border: 1px solid darkgray;
     height: 3em;
     width: auto;
     float: left;
@@ -89,6 +97,36 @@
 #Label6 {
     font-weight: 700;
     font-size: 16pt;
+}
+
+/*GAMES BOX*/
+
+#games {
+    width: 300px;
+    height: 310px;
+    margin-top: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+#gameheader {
+    width: 100%;
+    height: 30px;
+    background-color: black;
+}
+
+/*FIELD AND ITS PLAYERS*/
+
+#leftland {
+    float: left;
+}
+
+#field {
+    margin-left: 1em;
+    border-radius: 10px;
+    object-fit: cover;
+    width: 320px;
+    height: auto;
 }
 
 @media (max-width:880px) {
