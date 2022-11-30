@@ -51,16 +51,15 @@
                 </div>
             </div>
 
-
-            
-
-             
-
         </div>
 
 
+        <div id="field">
+            <img src=".\Resources\field.png" alt="field" id="field_img" />
+        </div>
+        
 
-        <img src=".\Resources\field.png" alt="field" id="field" />
+
     </form>
 </body>
 </html>
