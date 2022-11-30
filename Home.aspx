@@ -16,9 +16,10 @@
             <img src=".\Resources\flag.png" alt="flag" class="rg" />
             <img src=".\Resources\logo.png" alt="logo" class="rg" />
             <asp:Label ID="Label1" runat="server" Text="SELEÇÃO ALEMÃ MASCULINA"></asp:Label><br />
-            <asp:Label ID="Label2" runat="server" Text="PARTICIPAÇÕES NA COPA DO MUNDO DA FIFA CATAR 2022"></asp:Label>
+            <asp:Label ID="Label2" runat="server" Text="PARTICIPANDO DA COPA DO MUNDO DA FIFA CATAR 2022"></asp:Label>
         </div>
 
+        <div id="leftlefthand">
         <div id="leftland">
             <div id="coaches">
                 <div id="coachbox">
@@ -38,6 +39,22 @@
                 <div id="gameheader">
                 </div>
             </div>
+            </div>
+
+             <div id="carrosel">
+                <div id="players">
+                </div>
+            </div>
+
+              <div id="carrosel_subs">
+                <div id="players_subs">
+                </div>
+            </div>
+
+
+            
+
+             
 
         </div>
 

@@ -1,8 +1,9 @@
 ﻿body {
     color: black;
-    background-color: white;
+    background-color: #f2f2f2;
     font-family: 'Open Sans','Arial',sans-serif;
-    margin: 1em 3em;
+    margin: 1em 1em;
+
 }
 
 /*HEADER ELEMENTS*/
@@ -12,6 +13,7 @@
     height: fit-content;
     width: 100%;
     margin-bottom: 2em;
+    margin-left:3px;
 }
 
 .rg {
@@ -39,7 +41,7 @@
     border: solid 2px black;
     border-radius: 10px;
     height: fit-content;
-    width: 300px;
+    width: 380px;
 }
 
 #coachbox {
@@ -102,7 +104,7 @@
 /*GAMES BOX*/
 
 #games {
-    width: 300px;
+    width: 380px;
     height: 310px;
     margin-top: 10px;
     border: 2px solid black;
@@ -125,10 +127,33 @@
     margin-left: 1em;
     border-radius: 10px;
     object-fit: cover;
-    width: 320px;
+    width: 400px;
     height: auto;
 }
 
+#leftleftland {
+    background-color: rebeccapurple;
+    float:left;
+}
+
+#carrosel {
+    position:absolute;
+    width: 710px;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-left: 52em
+}
+
+#carrosel_subs {
+    position: absolute;
+    width: 710px;
+    height: 300px;
+    border: 2px solid black;
+    margin-top: 320px;
+    border-radius: 10px;
+    margin-left: 52em
+}
 @media (max-width:880px) {
     #header {
         width: 790px
