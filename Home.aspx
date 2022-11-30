@@ -11,16 +11,16 @@
 <body>
 
     <form id="form1" runat="server">
-
         <div id="header">
-            <img src=".\Resources\flag.png" alt="flag" class="rg" />
-            <img src=".\Resources\logo.png" alt="logo" class="rg" />
-            <asp:Label ID="Label1" runat="server" Text="SELEÇÃO ALEMÃ MASCULINA"></asp:Label><br />
-            <asp:Label ID="Label2" runat="server" Text="PARTICIPANDO DA COPA DO MUNDO DA FIFA CATAR 2022"></asp:Label>
+            <div id="elements">
+                <img src=".\Resources\flag.png" alt="flag" class="rg" />
+                <img src=".\Resources\logo.png" alt="logo" class="rg" />
+                <asp:Label ID="Label1" runat="server" Text="SELEÇÃO ALEMÃ MASCULINA"></asp:Label><br />
+                <asp:Label ID="Label2" runat="server" Text="PARTICIPAÇÕES NA COPA DO MUNDO DA FIFA CATAR 2022"></asp:Label>
+            </div>
         </div>
 
-        <div id="leftlefthand">
-        <div id="leftland">
+        <div style="float: left;">
             <div id="coaches">
                 <div id="coachbox">
                     <img src=".\Resources\coach1.jpg" alt="coach1" id="coachimage" />
@@ -36,31 +36,29 @@
             </div>
 
             <div id="games">
-                <div id="gameheader">
-                </div>
             </div>
-            </div>
+        </div>
 
-             <div id="carrosel">
+        <div style="float: right;">
+            <div id="carrosel">
                 <div id="players">
                 </div>
             </div>
 
-              <div id="carrosel_subs">
+            <div id="carrosel_subs">
                 <div id="players_subs">
                 </div>
             </div>
-
         </div>
-
 
         <div id="field">
-            <img src=".\Resources\field.png" alt="field" id="field_img" />
+            <img src=".\Resources\field.png" alt="fieldimg" id="field_img" />
+            <img id="meiaofensa" src=".\Resources\player1.png" alt="meiaofensa" class="player" />
+            <img id="esqrofensa" src=".\Resources\player2.jpg" alt="esqrofensa" class="player" />
+            <img id="direofensa" src=".\Resources\player3.png" alt="direofensa" class="player" />
         </div>
-        
-
-
     </form>
+
 </body>
 </html>
 
