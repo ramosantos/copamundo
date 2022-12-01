@@ -137,7 +137,8 @@
 
 .player {
     position: absolute;
-    border: 2px solid darkgreen;
+    border: 4px solid black;
+    border-radius: 70%;
     height: 60px;
     width: auto;
 }
@@ -149,18 +150,27 @@
 /* JOGADORES */
 
 #meiaofensa {
-    left: 150px;
-    top: 150px;
+    left: 143px;
+    top: 90px;
+    background: white;
 }
 
 #esqrofensa {
-    left: 70px;
-    top: 70px;
+    left: 40px;
+    top: 130px;
+    background: white;
 }
 
 #direofensa {
-    left: 230px;
-    top: 70px;
+    left: 255px;
+    top: 130px;
+    background: white;
+}
+
+#gol {
+    top: 460px;
+    left: 143px;
+    background: white;
 }
 
 /* CARROSSEL */

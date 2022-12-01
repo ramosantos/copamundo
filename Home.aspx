@@ -54,8 +54,9 @@
         <div id="field">
             <img src=".\Resources\field.png" alt="fieldimg" id="field_img" />
             <img id="meiaofensa" src=".\Resources\player1.png" alt="meiaofensa" class="player" />
-            <img id="esqrofensa" src=".\Resources\player2.jpg" alt="esqrofensa" class="player" />
+            <img id="esqrofensa" src=".\Resources\player2.png" alt="esqrofensa" class="player" />
             <img id="direofensa" src=".\Resources\player3.png" alt="direofensa" class="player" />
+             <img id="gol" src=".\Resources\player11.jpg" alt="gol" class="player" />
         </div>
     </form>
 
