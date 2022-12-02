@@ -127,6 +127,9 @@
     margin-left: 25.5em;
     display: block;
     position: relative;
+    top: 0px;
+    left: 0px;
+    height: 104px;
 }
 
 #field_img {
@@ -143,6 +146,12 @@
     width: auto;
 }
 
+.label_players {
+    position: absolute;
+    font-size: 8pt;
+    font-weight: bold;
+}
+
 .player:hover {
     border: 2px solid purple;
 }
@@ -154,24 +163,103 @@
     top: 90px;
     background: white;
 }
+#Label7 {
+    left: 122px;
+    top: 73px;
+}
 
 #esqrofensa {
     left: 40px;
-    top: 130px;
+    top: 160px;
     background: white;
+}
+#Label8 {
+    left: 30px;
+    top: 145px;
 }
 
 #direofensa {
     left: 255px;
-    top: 130px;
+    top: 160px;
     background: white;
 }
-
-#gol {
-    top: 460px;
+#Label9 {
+    left: 270px;
+    top: 145px;
+}
+#meioofensa {
+    left: 143px;
+    top: 190px;
+    background: white;
+}
+#Label10 {
+    left: 142px;
+    top: 175px;
+}
+#volesquerdo {
+    left: 70px;
+    top: 260px;
+    background: white;
+}
+#Label11 {
+    left: 60px;
+    top: 240px;
+}
+#voldireito {
+    left: 210px;
+    top: 260px;
+    background: white;
+}
+#Label12 {
+    left: 220px;
+    top: 240px;
+}
+#latesquerdo {
+    left: 22px;
+    top: 350px;
+    background: white;
+}
+#Label13 {
+    left: 30px;
+    top: 335px;
+}
+#zagesquerdo {
+    left: 100px;
+    top: 370px;
+    background: white;
+}
+#Label14 {
+    left: 105px;
+    top: 355px;
+}
+#zagdireito {
+    left: 180px;
+    top: 370px;
+    background: white;
+}
+#Label15 {
+    left: 190px;
+    top: 355px;
+}
+#latdireito {
+    left: 260px;
+    top: 350px;
+    background: white;
+}
+#Label16 {
+    left: 265px;
+    top: 335px;
+}
+#goleiro {
+    top: 455px;
     left: 143px;
     background: white;
 }
+#Label17 {
+    left: 155px;
+    top: 440px;
+}
+
 
 /* CARROSSEL */
 #carrosel {
