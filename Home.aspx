@@ -52,30 +52,80 @@
         </div>
 
         <div id="field">
-              <img src=".\Resources\field.png" alt="fieldimg" id="field_img" />
+       <img src=".\Resources\field.png" alt="fieldimg" id="field_img" />
+
+        <div id="info_meiaofensa">
             <img id="meiaofensa" src=".\Resources\player1.png" alt="THOMAS MULLER" class="player" />
             <asp:Label ID="Label7" runat="server" Text="THOMAS MULLER 13" class="label_players"></asp:Label>
+             <asp:Label ID="Label18" runat="server" Text="
+                  - Posição: Atacante <br>
+                  - Idade: 33 <br>
+                  - Altura: 1,85 m <br>
+                  - Peso: 76 kg <br>
+                  - Clube atual: Bayern de Munique" CssClass="infos"></asp:Label>
+           </div>
+           
+         <div id="info_esqrofensa">
             <img id="esqrofensa" src=".\Resources\player2.png" alt="SARGE GNABRY" class="player" />
             <asp:Label ID="Label8" runat="server" Text="SARGE GNABRY 10" class="label_players"></asp:Label>
+             <asp:Label ID="Label19" runat="server" Text="
+                - Posição: Ponta <br>
+                - Idade: 27 <br>
+                - Altura: 1,76m <br>
+                - Peso: 77 kg <br>
+                - Clube atual: Bayer de Munique" CssClass="infos"></asp:Label>
+         </div>
+
+        <div id="info_direofensa">
             <img id="direofensa" src=".\Resources\player3.png" alt="LEROY SANE" class="player" />
             <asp:Label ID="Label9" runat="server" Text="SANÉ 19"  class="label_players"></asp:Label>
-            <img id="meioofensa" src=".\Resources\player4.png" alt="JAMAL MUSIALA" class="player" />
+            <asp:Label ID="Label20" runat="server" Text="
+                - Posição: Ponta <br>
+                - Idade: 26 <br>
+                - Altura: 1,83 m <br>
+                - Peso:  78 kg <br>
+                - Clube atual: Bayern de Munique" CssClass="infos"></asp:Label>
+         </div>
+
+        <div id="info_meiodefesa">
+            <img id="meiodefesa" src=".\Resources\player4.png" alt="JAMAL MUSIALA" class="player" />
             <asp:Label ID="Label10" runat="server" Text="MUSIALA 14"  class="label_players"></asp:Label>
+            <asp:Label ID="Label21" runat="server" Text="
+               - Posição: Meia <br>
+               - Idade: 19 <br>
+               - Altura: 1,83m <br>
+               - Peso: 70 kg <br>
+               - Clube atual: Bayern de Munique" CssClass="infos"></asp:Label>
+         </div>
+
+         <div id="info_volesquerdo">
             <img id="volesquerdo" src=".\Resources\player5.png" alt="GUNDOGAN" class="player" />
             <asp:Label ID="Label11" runat="server" Text="GUNDOGAN 21"  class="label_players"></asp:Label>
+            <asp:Label ID="Label22" runat="server" Text="
+                - Posição: Volante <br>
+                - Idade: 32 <br>
+                - Altura: 1,8m <br>
+                - Peso: 80 kg <br>
+                - Clube atual: Manchester City" CssClass="infos"></asp:Label>
+          </div>
             <img id="voldireito" src=".\Resources\player6.png" alt="GORETZKA" class="player" />
             <asp:Label ID="Label12" runat="server" Text="GORETZKA 8"  class="label_players"></asp:Label>
+
             <img id="latesquerdo" src=".\Resources\player7.png" alt="D.RAUM" class="player" />
             <asp:Label ID="Label13" runat="server" Text="D.RAUM 3"  class="label_players"></asp:Label>
+
             <img id="zagesquerdo" src=".\Resources\player8.jpg" alt="RUDIGER" class="player" />
             <asp:Label ID="Label14" runat="server" Text="RUDIGER 2"  class="label_players"></asp:Label>
+
             <img id="zagdireito" src=".\Resources\player9.PNG" alt="NICOLAS SUELE" class="player" />
             <asp:Label ID="Label15" runat="server" Text="SUELE 15"  class="label_players"></asp:Label>
+
             <img id="latdireito" src=".\Resources\player10.PNG" alt="KIMMICH" class="player" />
             <asp:Label ID="Label16" runat="server" Text="KIMMICH 6"  class="label_players"></asp:Label>
+
             <img id="goleiro" src=".\Resources\player11.jpg" alt="MANUEL NUER" class="player" />
             <asp:Label ID="Label17" runat="server" Text="NUER 1"  class="label_players"></asp:Label>
-        </div>
+    </div>
     </form>
 
 </body>

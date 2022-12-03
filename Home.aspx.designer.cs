@@ -87,6 +87,15 @@ namespace copamundo
         protected global::System.Web.UI.WebControls.Label Label7;
 
         /// <summary>
+        /// Controle Label18.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Label18;
+
+        /// <summary>
         /// Controle Label8.
         /// </summary>
         /// <remarks>
@@ -94,6 +103,15 @@ namespace copamundo
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label8;
+
+        /// <summary>
+        /// Controle Label19.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Label19;
 
         /// <summary>
         /// Controle Label9.
@@ -105,6 +123,15 @@ namespace copamundo
         protected global::System.Web.UI.WebControls.Label Label9;
 
         /// <summary>
+        /// Controle Label20.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Label20;
+
+        /// <summary>
         /// Controle Label10.
         /// </summary>
         /// <remarks>
@@ -114,6 +141,15 @@ namespace copamundo
         protected global::System.Web.UI.WebControls.Label Label10;
 
         /// <summary>
+        /// Controle Label21.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Label21;
+
+        /// <summary>
         /// Controle Label11.
         /// </summary>
         /// <remarks>
@@ -121,6 +157,15 @@ namespace copamundo
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label11;
+
+        /// <summary>
+        /// Controle Label22.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Label22;
 
         /// <summary>
         /// Controle Label12.
