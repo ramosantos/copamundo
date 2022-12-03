@@ -129,7 +129,7 @@
     position: relative;
     top: 0px;
     left: 0px;
-    height: 104px;
+   
 }
 
 #field_img {
@@ -150,6 +150,7 @@
     position: absolute;
     font-size: 8pt;
     font-weight: bold;
+    border-color:white;
 }
 
 .player:hover {
@@ -166,27 +167,40 @@
     border: solid 4px;
     border-radius: 30%;
     border-color: white;
-    width: 150px;
+    width: 200px;
+    height: 80px;
     text-align: center;
-    left: 103px;
+    left: 75px;
     top: 3px;
+    box-shadow: 1px 1px #CF0A0A, 2px 2px #CF0A0A, 3px 3px #CF0A0A;
+    -webkit-transform: translateX(-3px);
+    transform: translateX(-3px);
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 /* JOGADORES */
 
 #meiaofensa {
     left: 143px;
-    top: 90px;
+    top: 97px;
     background: white;
 }
 #Label7 {
     left: 122px;
-    top: 73px;
+    top: 78px;
 }
-
-
 #info_meiaofensa:hover #Label18 {
-    opacity: 1;
+    animation: fade-in 3S forwards;
 }
+
 
 #esqrofensa {
     left: 40px;
@@ -197,11 +211,10 @@
     left: 30px;
     top: 145px;
 }
-
-
 #info_esqrofensa:hover #Label19 {
-    opacity: 1;
+    animation: fade-in 3S forwards;
 }
+
 
 #direofensa {
     left: 255px;
@@ -212,11 +225,10 @@
     left: 270px;
     top: 145px;
 }
-
-
 #info_direofensa:hover #Label20 {
-    opacity: 1;
+    animation: fade-in 3S forwards;
 }
+
 
 #meiodefesa {
     left: 143px;
@@ -227,11 +239,10 @@
     left: 142px;
     top: 175px;
 }
-
-
 #info_meiodefesa:hover #Label21 {
-    opacity: 1;
+    animation: fade-in 3S forwards;
 }
+
 
 #volesquerdo {
     left: 70px;
@@ -242,11 +253,10 @@
     left: 60px;
     top: 240px;
 }
-
-
 #info_volesquerdo:hover #Label22 {
-    opacity: 1;
+    animation: fade-in 3S forwards;
 }
+
 
 #voldireito {
     left: 210px;
@@ -257,6 +267,11 @@
     left: 220px;
     top: 240px;
 }
+#info_voldireito:hover #Label23 {
+    animation: fade-in 3S forwards;
+}
+
+
 #latesquerdo {
     left: 22px;
     top: 350px;
@@ -266,6 +281,11 @@
     left: 30px;
     top: 335px;
 }
+#info_latesquerdo:hover #Label24 {
+    animation: fade-in 3S forwards;
+}
+
+
 #zagesquerdo {
     left: 100px;
     top: 370px;
@@ -275,6 +295,11 @@
     left: 105px;
     top: 355px;
 }
+#info_zagesquerdo:hover #Label25 {
+    animation: fade-in 3S forwards;
+}
+
+
 #zagdireito {
     left: 180px;
     top: 370px;
@@ -284,6 +309,11 @@
     left: 190px;
     top: 355px;
 }
+#info_zagdireito:hover #Label26 {
+    animation: fade-in 3S forwards;
+}
+
+
 #latdireito {
     left: 260px;
     top: 350px;
@@ -293,6 +323,11 @@
     left: 265px;
     top: 335px;
 }
+#info_latdireito:hover #Label27 {
+    animation: fade-in 3S forwards;
+}
+
+
 #goleiro {
     top: 455px;
     left: 143px;
@@ -302,27 +337,60 @@
     left: 155px;
     top: 440px;
 }
+#info_goleiro:hover #Label28 {
+    animation: fade-in 3S forwards;
+}
 
 
 /* CARROSSEL */
 #carrosel {
-    width: 300px;
-    height: 300px;
+    position: absolute;
+    width: 480px;
+    height: 250px;
     border: 2px solid black;
     border-radius: 10px;
+    margin-left:780px;
 }
 
-/*
+.players {
+   
+    width: 480px;
+    height: 250px;
+}
+
+.slide {
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    opacity:0;
+    transition: opacity .2s;
+}
+
+.on{
+    opacity:1;
+}
+
+#prev, #next {
+    width: 40px;
+    height: 40px;
+}
+
+
+
+#next{
+  margin-left:400px;
+}
+
 #carrosel_subs {
     position: absolute;
-    width: 300px;
-    height: 300px;
+    width: 480px;
+    height: 250px;
     border: 2px solid black;
-    margin-top: 320px;
     border-radius: 10px;
-    margin-left: 52em;
+    margin-left: 780px;
+    margin-top:280px
 }
-*/
+
 
 @media (max-width:880px) {
     #header {

@@ -7,10 +7,11 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>copamundo</title>
     <link rel="stylesheet" href="main.css" />
+    <script src="JavaScript.js" ></script>
 </head>
 <body>
 
-    <form id="form1" runat="server">
+    <form id="form1" runat="server" onsubmit="return false;">
         <div id="header">
             <div id="elements">
                 <img src=".\Resources\flag.png" alt="flag" class="rg" />
@@ -39,15 +40,29 @@
             </div>
         </div>
 
-        <div style="float: right;">
+        <div>
             <div id="carrosel">
+              <asp:Button ID="prev" runat="server" Text="Button" />
                 <div id="players">
+                    <img  src=".\Resources\player1.png" alt="THOMAS MULLER" class="slide on" />
+                    <img  src=".\Resources\player2.png" alt="THOMAS MULLER" class="slide" />
+                    <img  src=".\Resources\player3.png" alt="THOMAS MULLER" class="slide" />
+                    <img  src=".\Resources\player4.png" alt="THOMAS MULLER" class="slide" />
+                    <img  src=".\Resources\player5.png" alt="THOMAS MULLER" class="slide" />
+                    <img  src=".\Resources\player6.png" alt="THOMAS MULLER" class="slide" />
+                    <img  src=".\Resources\player7.png" alt="THOMAS MULLER" class="slide" />
+                    <img  src=".\Resources\player8.jpg" alt="THOMAS MULLER" class="slide" />
+                    <img  src=".\Resources\player9.png" alt="THOMAS MULLER" class="slide" />
+                    <img  src=".\Resources\player10.png" alt="THOMAS MULLER" class="slide" />
+                    <img  src=".\Resources\player11.jpg" alt="THOMAS MULLER" class="slide" />
                 </div>
+                 <asp:Button ID="next" runat="server" Text="Button" />
             </div>
 
             <div id="carrosel_subs">
                 <div id="players_subs">
-          </div>
+
+                </div>
             </div>
         </div>
 
@@ -60,7 +75,7 @@
              <asp:Label ID="Label18" runat="server" Text="
                   - Posição: Atacante <br>
                   - Idade: 33 <br>
-                  - Altura: 1,85 m <br>
+                  - Altura: 1,85m <br>
                   - Peso: 76 kg <br>
                   - Clube atual: Bayern de Munique" CssClass="infos"></asp:Label>
            </div>
@@ -108,23 +123,72 @@
                 - Peso: 80 kg <br>
                 - Clube atual: Manchester City" CssClass="infos"></asp:Label>
           </div>
+            
+         <div id="info_voldireito">
             <img id="voldireito" src=".\Resources\player6.png" alt="GORETZKA" class="player" />
             <asp:Label ID="Label12" runat="server" Text="GORETZKA 8"  class="label_players"></asp:Label>
+             <asp:Label ID="Label23" runat="server" Text="
+                - Posição: Meia <br>
+                - Idade: 27 <br>
+                - Altura: 1,89m <br>
+                - Peso: 82 kg <br>
+                - Clube atual: Bayern de Munique" CssClass="infos"></asp:Label>
+          </div>
 
+          <div id="info_latesquerdo">
             <img id="latesquerdo" src=".\Resources\player7.png" alt="D.RAUM" class="player" />
             <asp:Label ID="Label13" runat="server" Text="D.RAUM 3"  class="label_players"></asp:Label>
+                     <asp:Label ID="Label24" runat="server" Text="
+                - Posição: Lateral <br>
+                - Idade: 24 <br>
+                - Altura: 1,8m <br>
+                - Peso: 75 kg <br>
+                - Clube atual: RasenBallsport Leipzig" CssClass="infos"></asp:Label>
+          </div>
 
+          <div id="info_zagesquerdo">
             <img id="zagesquerdo" src=".\Resources\player8.jpg" alt="RUDIGER" class="player" />
             <asp:Label ID="Label14" runat="server" Text="RUDIGER 2"  class="label_players"></asp:Label>
+             <asp:Label ID="Label25" runat="server" Text="
+                - Posição: Zagueiro <br>
+                - Idade: 29 <br>
+                - Altura: 1,9m <br>
+                - Peso: 85 kg <br>
+                - Clube atual: Real Madrid" CssClass="infos"></asp:Label>
+          </div>
 
+          <div id="info_zagdireito">
             <img id="zagdireito" src=".\Resources\player9.PNG" alt="NICOLAS SUELE" class="player" />
-            <asp:Label ID="Label15" runat="server" Text="SUELE 15"  class="label_players"></asp:Label>
+            <asp:Label ID="Label15" runat="server" Text="N.SULE 15"  class="label_players"></asp:Label>
+            <asp:Label ID="Label26" runat="server" Text="
+                - Posição: Zagueiro <br>
+                - Idade: 27 <br>
+                - Altura: 1,95m <br>
+                - Peso: 99 kg <br>
+                - Clube atual: Borussia Dortmund" CssClass="infos"></asp:Label>
+          </div>
 
+        <div id="info_latdireito">
             <img id="latdireito" src=".\Resources\player10.PNG" alt="KIMMICH" class="player" />
             <asp:Label ID="Label16" runat="server" Text="KIMMICH 6"  class="label_players"></asp:Label>
+            <asp:Label ID="Label27" runat="server" Text="
+                - Posição: Lateral <br>
+                - Idade: 27 <br>
+                - Altura: 1,77m <br>
+                - Peso: 75 kg <br>
+                - Clube atual: Bayern de Munique" CssClass="infos"></asp:Label>
+          </div>
 
+        <div id="info_goleiro">
             <img id="goleiro" src=".\Resources\player11.jpg" alt="MANUEL NUER" class="player" />
             <asp:Label ID="Label17" runat="server" Text="NUER 1"  class="label_players"></asp:Label>
+            <asp:Label ID="Label28" runat="server" Text="
+                - Posição: Goleiro <br>
+                - Idade: 36 <br>
+                - Altura: 1,93m <br>
+                - Peso: 93 kg <br>
+                - Clube atual: Bayern de Munique" CssClass="infos"></asp:Label>
+          </div>
     </div>
     </form>
 

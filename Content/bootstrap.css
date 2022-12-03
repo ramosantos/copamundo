@@ -6679,7 +6679,7 @@ a.close.disabled {
     transform: scale(0);
   }
   50% {
-    opacity: 1;
+     opacity: 1;
     -webkit-transform: none;
     transform: none;
   }
@@ -6691,7 +6691,7 @@ a.close.disabled {
     transform: scale(0);
   }
   50% {
-    opacity: 1;
+     opacity: 1;
     -webkit-transform: none;
     transform: none;
   }
