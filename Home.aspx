@@ -7,7 +7,6 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>copamundo</title>
     <link rel="stylesheet" href="main.css" />
-    <script src="JavaScript.js" ></script>
 </head>
 <body>
 
@@ -41,23 +40,78 @@
         </div>
 
         <div>
-            <div id="carrosel">
-              <asp:Button ID="prev" runat="server" Text="Button" />
-                <div id="players">
-                    <img  src=".\Resources\player1.png" alt="THOMAS MULLER" class="slide on" />
-                    <img  src=".\Resources\player2.png" alt="THOMAS MULLER" class="slide" />
-                    <img  src=".\Resources\player3.png" alt="THOMAS MULLER" class="slide" />
-                    <img  src=".\Resources\player4.png" alt="THOMAS MULLER" class="slide" />
-                    <img  src=".\Resources\player5.png" alt="THOMAS MULLER" class="slide" />
-                    <img  src=".\Resources\player6.png" alt="THOMAS MULLER" class="slide" />
-                    <img  src=".\Resources\player7.png" alt="THOMAS MULLER" class="slide" />
-                    <img  src=".\Resources\player8.jpg" alt="THOMAS MULLER" class="slide" />
-                    <img  src=".\Resources\player9.png" alt="THOMAS MULLER" class="slide" />
-                    <img  src=".\Resources\player10.png" alt="THOMAS MULLER" class="slide" />
-                    <img  src=".\Resources\player11.jpg" alt="THOMAS MULLER" class="slide" />
-                </div>
-                 <asp:Button ID="next" runat="server" Text="Button" />
+           <section class="slider">
+        <input class="btn" name='slide' type="radio" checked/>
+        <input //class="btn" name='slide' type="radio"/>
+        <input class="btn" name='slide' type="radio"/>
+        <input class="btn" name='slide' type="radio"/>
+        <input class="btn" name='slide' type="radio"/>
+        <input class="btn" name='slide' type="radio"/>
+        <input class="btn" name='slide' type="radio"/>
+        <input class="btn" name='slide' type="radio"/>
+        <input class="btn" name='slide' type="radio"/>
+        <input class="btn" name='slide' type="radio"/>
+        <input class="btn" name='slide' type="radio"/>
+       
+    
+        <div class="slider-content">
+            <div class="slider-item"><img src=".\Resources\player1.png" alt="THOMAS MULLER" class="player2"/>  
+                <asp:Label ID="Label29" runat="server" CssClass="slider_info" 
+                    Text="Thomas Müller é um futebolista alemão que atua como meia ou atacante. 
+                    Atualmente joga no Bayern de Munique. 
+                    Considerado um dos grandes nomes da história do futebol alemão, 
+                    é o jogador em atividade com mais gols em Copas do Mundo FIFA, com 10 gols."></asp:Label>
             </div>
+            <div class="slider-item"><img src=".\Resources\player2.png" alt="SARGE GNABRY" class="player2"/>
+                <asp:Label ID="Label30" runat="server" CssClass="slider_info" 
+                    Text="Serge David Gnabry mais conhecido como Serge Gnabry ou somente Gnabry
+                    (Estugarda, 14 de julho de 1995) é um futebolista alemão que atua como ponta. 
+                    Atualmente, joga no Bayern de Munique da Alemanha."></asp:Label>
+            </div>
+            <div class="slider-item"> <img src=".\Resources\player3.png" alt="LEROY SANE" class="player2"/>
+                <asp:Label ID="Label31" runat="server" CssClass="slider_info" 
+                    Text="Leroy Aziz Sané (Essen, 11 de janeiro de 1996) é um futebolista alemão que atua como meia ou ponta-esquerda. 
+                    Atualmente joga pelo Bayern de Munique.
+                    É filho do ex-jogador senegalense Souleyman Sané, que atuou no futebol alemão nos anos 90."></asp:Label>
+            </div>
+            <div class="slider-item"><img src=".\Resources\player4.png" alt="JAMAL MUSIALA" class="player2"/>
+                <asp:Label ID="Label32" runat="server" CssClass="slider_info" 
+                    Text="Jamal Musiala (Estugarda, 26 de fevereiro de 2003) é um futebolista alemão que atua como meio-campista. Atualmente, joga no Bayern de Munique.
+                    Nascido na Alemanha, filho de pai britânico-nigeriano e mãe alemã, e criado principalmente na Inglaterra, possuindo dupla nacionalidade,
+                    Musiala representou a Inglaterra nas Seleções de base e, por fim, decidiu jogar pela Seleção Alemã, em fevereiro de 2021."></asp:Label>
+            </div>
+            <div class="slider-item"><img src=".\Resources\player5.png" alt="GUNDOGAN" class="player2"/>
+                <asp:Label ID="Label33" runat="server" CssClass="slider_info" 
+                    Text="İlkay Gündoğan (Gelsenkirchen, 24 de outubro de 1990) é um futebolista alemão de origem turca que atua como volante.
+                    Atualmente defende o Manchester City.
+                    Gündoğan foi uma figura central do triunfo do Dortmund na Bundesliga 2011–12. Normalmente meia central, é notável por seu jogo de passes e qualidade técnica.">
+                </asp:Label>
+            </div>
+            <div class="slider-item"><img  src=".\Resources\player6.png" alt="GORETZKA" class="player2"/>
+                <asp:Label ID="Label34" runat="server" CssClass="slider_info" 
+                    Text="Leon Goretzka (Bochum, 6 de fevereiro de 1995) é um futebolista alemão que atua como meio-campista. 
+                    Atualmente defende o Bayern de Munique.
+                    Goretzka fez parte do time da Seleção Alemã de Futebol nas Olimpíadas de 2016, onde lesionou-se, 
+                    e seu time viria a receber a medalha de prata da competição depois de perder a final para o Brasil nos pênaltis, 
+                    após seu companheiro de equipe Nils Petersen errar o pênalti, em pleno Estádio Maracanã."></asp:Label>
+            </div>
+            <div class="slider-item"><img  src=".\Resources\player7.png" alt="D.RAUM" class="player2"/>
+                <asp:Label ID="Label35" runat="server" CssClass="slider_info" Text="Label"></asp:Label>
+            </div>
+            <div class="slider-item"><img  src=".\Resources\player8.jpg" alt="RUDIGER" class="player2"/>
+                <asp:Label ID="Label36" runat="server" CssClass="slider_info" Text="Label"></asp:Label>
+            </div>
+            <div class="slider-item"><img  src=".\Resources\player9.png" alt="NICOLAS SUELE" class="player2"/>
+                <asp:Label ID="Label37" runat="server" CssClass="slider_info" Text="Label"></asp:Label>
+            </div>
+            <div class="slider-item"><img  src=".\Resources\player10.png" alt="KIMMICH" class="player2"/>
+                <asp:Label ID="Label38" runat="server" CssClass="slider_info" Text="Label"></asp:Label>
+            </div>
+            <div class="slider-item"> <img  src=".\Resources\player11.jpg" alt="MANUEL NUER" class="player2"/>
+                <asp:Label ID="Label39" runat="server" CssClass="slider_info" Text="Label"></asp:Label>
+            </div>
+        </div>
+    </section>
 
             <div id="carrosel_subs">
                 <div id="players_subs">
