@@ -39,21 +39,20 @@
             </div>
         </div>
 
-        <div>
+        
            <section class="slider">
-        <input class="btn1" name='slide' type="radio" checked/>
-        <input //class="btn2" name='slide' type="radio"/>
-        <input class="btn3" name='slide' type="radio"/>
-        <input class="btn4" name='slide' type="radio"/>
-        <input class="btn5" name='slide' type="radio"/>
-        <input class="btn6" name='slide' type="radio"/>
-        <input class="btn7" name='slide' type="radio"/>
-        <input class="btn8" name='slide' type="radio"/>
-        <input class="btn9" name='slide' type="radio"/>
-        <input class="btn10" name='slide' type="radio"/>
-        <input class="btn11" name='slide' type="radio"/>
-       
-    
+        <input class="btn" name='slide' type="radio" id="btn1" checked/>
+        <input class="btn" name='slide' type="radio" id="btn2"/>
+        <input class="btn" name='slide' type="radio" id="btn3"/>
+        <input class="btn" name='slide' type="radio" id="btn4"/>
+        <input class="btn" name='slide' type="radio" id="btn5"/>
+        <input class="btn" name='slide' type="radio" id="btn6"/>
+        <input class="btn" name='slide' type="radio" id="btn7"/>
+        <input class="btn" name='slide' type="radio" id="btn8"/>
+        <input class="btn" name='slide' type="radio" id="btn9"/>
+        <input class="btn" name='slide' type="radio" id="btn10"/>
+        <input class="btn" name='slide' type="radio" id="btn11"/>
+
         <div class="slider-content">
             <div class="slider-item"><img src=".\Resources\player1.png" alt="THOMAS MULLER" class="player2"/>  
                 <asp:Label ID="Label29" runat="server" CssClass="slider_info" 
@@ -111,7 +110,9 @@
                 <asp:Label ID="Label39" runat="server" CssClass="slider_info" Text="Label"></asp:Label>
             </div>
         </div>
+
     </section>
+
 
             <div id="carrosel_subs">
                 <div id="players_subs">
@@ -126,11 +127,11 @@
         <div id="info_meiaofensa">
             <img id="meiaofensa" src=".\Resources\player1.png" alt="THOMAS MULLER" class="player" />
             <asp:Label ID="Label7" runat="server" Text="THOMAS MULLER 13" class="label_players"></asp:Label>
-             <asp:Label ID="Label18" runat="server" Text="
-                  - Posição: Atacante <br>
-                  - Idade: 33 <br>
-                  - Altura: 1,85m <br>
-                  - Peso: 76 kg <br>
+             <asp:Label ID="Label18" runat="server" Text=
+                 "- Posição: Atacante <br/>
+                  - Idade: 33 <br/>
+                  - Altura: 1,85m <br/>
+                  - Peso: 76 kg <br/>
                   - Clube atual: Bayern de Munique" CssClass="infos"></asp:Label>
            </div>
            
@@ -138,10 +139,10 @@
             <img id="esqrofensa" src=".\Resources\player2.png" alt="SARGE GNABRY" class="player" />
             <asp:Label ID="Label8" runat="server" Text="SARGE GNABRY 10" class="label_players"></asp:Label>
              <asp:Label ID="Label19" runat="server" Text="
-                - Posição: Ponta <br>
-                - Idade: 27 <br>
-                - Altura: 1,76m <br>
-                - Peso: 77 kg <br>
+                - Posição: Ponta <br/>
+                - Idade: 27 <br/>
+                - Altura: 1,76m <br/>
+                - Peso: 77 kg <br/>
                 - Clube atual: Bayer de Munique" CssClass="infos"></asp:Label>
          </div>
 
@@ -149,10 +150,10 @@
             <img id="direofensa" src=".\Resources\player3.png" alt="LEROY SANE" class="player" />
             <asp:Label ID="Label9" runat="server" Text="SANÉ 19"  class="label_players"></asp:Label>
             <asp:Label ID="Label20" runat="server" Text="
-                - Posição: Ponta <br>
-                - Idade: 26 <br>
-                - Altura: 1,83 m <br>
-                - Peso:  78 kg <br>
+                - Posição: Ponta <br/>
+                - Idade: 26 <br/>
+                - Altura: 1,83 m <br/>
+                - Peso:  78 kg <br/>
                 - Clube atual: Bayern de Munique" CssClass="infos"></asp:Label>
          </div>
 
@@ -160,10 +161,10 @@
             <img id="meiodefesa" src=".\Resources\player4.png" alt="JAMAL MUSIALA" class="player" />
             <asp:Label ID="Label10" runat="server" Text="MUSIALA 14"  class="label_players"></asp:Label>
             <asp:Label ID="Label21" runat="server" Text="
-               - Posição: Meia <br>
-               - Idade: 19 <br>
-               - Altura: 1,83m <br>
-               - Peso: 70 kg <br>
+               - Posição: Meia <br/>
+               - Idade: 19 <br/>
+               - Altura: 1,83m <br/>
+               - Peso: 70 kg <br/>
                - Clube atual: Bayern de Munique" CssClass="infos"></asp:Label>
          </div>
 
@@ -171,10 +172,10 @@
             <img id="volesquerdo" src=".\Resources\player5.png" alt="GUNDOGAN" class="player" />
             <asp:Label ID="Label11" runat="server" Text="GUNDOGAN 21"  class="label_players"></asp:Label>
             <asp:Label ID="Label22" runat="server" Text="
-                - Posição: Volante <br>
-                - Idade: 32 <br>
-                - Altura: 1,8m <br>
-                - Peso: 80 kg <br>
+                - Posição: Volante <br/>
+                - Idade: 32 <br/>
+                - Altura: 1,8m <br/>
+                - Peso: 80 kg <br/>
                 - Clube atual: Manchester City" CssClass="infos"></asp:Label>
           </div>
             
@@ -182,10 +183,10 @@
             <img id="voldireito" src=".\Resources\player6.png" alt="GORETZKA" class="player" />
             <asp:Label ID="Label12" runat="server" Text="GORETZKA 8"  class="label_players"></asp:Label>
              <asp:Label ID="Label23" runat="server" Text="
-                - Posição: Meia <br>
-                - Idade: 27 <br>
-                - Altura: 1,89m <br>
-                - Peso: 82 kg <br>
+                - Posição: Meia <br/>
+                - Idade: 27 <br/>
+                - Altura: 1,89m <br/>
+                - Peso: 82 kg <br/>
                 - Clube atual: Bayern de Munique" CssClass="infos"></asp:Label>
           </div>
 
@@ -193,10 +194,10 @@
             <img id="latesquerdo" src=".\Resources\player7.png" alt="D.RAUM" class="player" />
             <asp:Label ID="Label13" runat="server" Text="D.RAUM 3"  class="label_players"></asp:Label>
                      <asp:Label ID="Label24" runat="server" Text="
-                - Posição: Lateral <br>
-                - Idade: 24 <br>
-                - Altura: 1,8m <br>
-                - Peso: 75 kg <br>
+                - Posição: Lateral <br/>
+                - Idade: 24 <br/>
+                - Altura: 1,8m <br/>
+                - Peso: 75 kg <br/>
                 - Clube atual: RasenBallsport Leipzig" CssClass="infos"></asp:Label>
           </div>
 
@@ -204,10 +205,10 @@
             <img id="zagesquerdo" src=".\Resources\player8.jpg" alt="RUDIGER" class="player" />
             <asp:Label ID="Label14" runat="server" Text="RUDIGER 2"  class="label_players"></asp:Label>
              <asp:Label ID="Label25" runat="server" Text="
-                - Posição: Zagueiro <br>
-                - Idade: 29 <br>
-                - Altura: 1,9m <br>
-                - Peso: 85 kg <br>
+                - Posição: Zagueiro <br/>
+                - Idade: 29 <br/>
+                - Altura: 1,9m <br/>
+                - Peso: 85 kg <br/>
                 - Clube atual: Real Madrid" CssClass="infos"></asp:Label>
           </div>
 
@@ -215,10 +216,10 @@
             <img id="zagdireito" src=".\Resources\player9.PNG" alt="NICOLAS SUELE" class="player" />
             <asp:Label ID="Label15" runat="server" Text="N.SULE 15"  class="label_players"></asp:Label>
             <asp:Label ID="Label26" runat="server" Text="
-                - Posição: Zagueiro <br>
-                - Idade: 27 <br>
-                - Altura: 1,95m <br>
-                - Peso: 99 kg <br>
+                - Posição: Zagueiro <br/>
+                - Idade: 27 <br/>
+                - Altura: 1,95m <br/>
+                - Peso: 99 kg <br/>
                 - Clube atual: Borussia Dortmund" CssClass="infos"></asp:Label>
           </div>
 
@@ -226,10 +227,10 @@
             <img id="latdireito" src=".\Resources\player10.PNG" alt="KIMMICH" class="player" />
             <asp:Label ID="Label16" runat="server" Text="KIMMICH 6"  class="label_players"></asp:Label>
             <asp:Label ID="Label27" runat="server" Text="
-                - Posição: Lateral <br>
-                - Idade: 27 <br>
-                - Altura: 1,77m <br>
-                - Peso: 75 kg <br>
+                - Posição: Lateral <br/>
+                - Idade: 27 <br/>
+                - Altura: 1,77m <br/>
+                - Peso: 75 kg <br/>
                 - Clube atual: Bayern de Munique" CssClass="infos"></asp:Label>
           </div>
 
@@ -237,10 +238,10 @@
             <img id="goleiro" src=".\Resources\player11.jpg" alt="MANUEL NUER" class="player" />
             <asp:Label ID="Label17" runat="server" Text="NUER 1"  class="label_players"></asp:Label>
             <asp:Label ID="Label28" runat="server" Text="
-                - Posição: Goleiro <br>
-                - Idade: 36 <br>
-                - Altura: 1,93m <br>
-                - Peso: 93 kg <br>
+                - Posição: Goleiro <br/>
+                - Idade: 36 <br/>
+                - Altura: 1,93m <br/>
+                - Peso: 93 kg <br/>
                 - Clube atual: Bayern de Munique" CssClass="infos"></asp:Label>
           </div>
     </div>
