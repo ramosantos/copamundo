@@ -41,17 +41,17 @@
 
         <div>
            <section class="slider">
-        <input class="btn" name='slide' type="radio" checked/>
-        <input //class="btn" name='slide' type="radio"/>
-        <input class="btn" name='slide' type="radio"/>
-        <input class="btn" name='slide' type="radio"/>
-        <input class="btn" name='slide' type="radio"/>
-        <input class="btn" name='slide' type="radio"/>
-        <input class="btn" name='slide' type="radio"/>
-        <input class="btn" name='slide' type="radio"/>
-        <input class="btn" name='slide' type="radio"/>
-        <input class="btn" name='slide' type="radio"/>
-        <input class="btn" name='slide' type="radio"/>
+        <input class="btn1" name='slide' type="radio" checked/>
+        <input //class="btn2" name='slide' type="radio"/>
+        <input class="btn3" name='slide' type="radio"/>
+        <input class="btn4" name='slide' type="radio"/>
+        <input class="btn5" name='slide' type="radio"/>
+        <input class="btn6" name='slide' type="radio"/>
+        <input class="btn7" name='slide' type="radio"/>
+        <input class="btn8" name='slide' type="radio"/>
+        <input class="btn9" name='slide' type="radio"/>
+        <input class="btn10" name='slide' type="radio"/>
+        <input class="btn11" name='slide' type="radio"/>
        
     
         <div class="slider-content">
