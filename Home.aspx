@@ -72,8 +72,7 @@
           <div class="slider-item">
             <img src=".\Resources\player4.png" alt="JAMAL MUSIALA" class="player2" />
             <asp:Label ID="Label32" runat="server" CssClass="slider_info" Text="Jamal Musiala (Estugarda, 26 de fevereiro de 2003) é um futebolista alemão que atua como meio-campista. Atualmente, joga no Bayern de Munique.
-                    Nascido na Alemanha, filho de pai britânico-nigeriano e mãe alemã, e criado principalmente na Inglaterra, possuindo dupla nacionalidade,
-                    Musiala representou a Inglaterra nas Seleções de base e, por fim, decidiu jogar pela Seleção Alemã, em fevereiro de 2021."></asp:Label>
+                    Nascido na Alemanha, filho de pai britânico-nigeriano e mãe alemã, e criado principalmente na Inglaterra, possuindo dupla nacionalidade."></asp:Label>
           </div>
           <div class="slider-item">
             <img src=".\Resources\player5.png" alt="GUNDOGAN" class="player2" />
@@ -86,8 +85,7 @@
             <asp:Label ID="Label34" runat="server" CssClass="slider_info" Text="Leon Goretzka (Bochum, 6 de fevereiro de 1995) é um futebolista alemão que atua como meio-campista. 
                     Atualmente defende o Bayern de Munique.
                     Goretzka fez parte do time da Seleção Alemã de Futebol nas Olimpíadas de 2016, onde lesionou-se, 
-                    e seu time viria a receber a medalha de prata da competição depois de perder a final para o Brasil nos pênaltis, 
-                    após seu companheiro de equipe Nils Petersen errar o pênalti, em pleno Estádio Maracanã."></asp:Label>
+                    e seu time viria a receber a medalha de prata da competição."></asp:Label>
           </div>
           <div class="slider-item">
             <img src=".\Resources\player7.png" alt="D.RAUM" class="player2" />
@@ -112,7 +110,103 @@
         </div>
       </section>
       <div id="carrosel_subs">
-        <div id="players_subs"></div>
+            <section class="slider">
+        <input class="btn" name='slide2' type="radio" id="btn1" checked="checked" />
+        <input class="btn" name='slide2' type="radio" id="btn2" />
+        <input class="btn" name='slide2' type="radio" id="btn3" />
+        <input class="btn" name='slide2' type="radio" id="btn4" />
+        <input class="btn" name='slide2' type="radio" id="btn5" />
+        <input class="btn" name='slide2' type="radio" id="btn6" />
+        <input class="btn" name='slide2' type="radio" id="btn7" />
+        <input class="btn" name='slide2' type="radio" id="btn8" />
+        <input class="btn" name='slide2' type="radio" id="btn9" />
+        <input class="btn" name='slide2' type="radio" id="btn10" />
+        <input class="btn" name='slide2' type="radio" id="btn11" />
+              
+        <div class="slider-content">
+          <div class="slider-item">
+            <img src=".\Resources\player1.png" alt="THOMAS MULLER" class="player2" />
+            <asp:Label ID="Label40" runat="server" CssClass="slider_info" Text="Thomas Müller é um futebolista alemão que atua como meia ou atacante. 
+                    Atualmente joga no Bayern de Munique. 
+                    Considerado um dos grandes nomes da história do futebol alemão, 
+                    é o jogador em atividade com mais gols em Copas do Mundo FIFA, com 10 gols."></asp:Label>
+          </div>
+          <div class="slider-item">
+            <img src=".\Resources\player2.png" alt="SARGE GNABRY" class="player2" />
+            <asp:Label ID="Label41" runat="server" CssClass="slider_info" Text="Serge David Gnabry mais conhecido como Serge Gnabry ou somente Gnabry
+                    (Estugarda, 14 de julho de 1995) é um futebolista alemão que atua como ponta. 
+                    Atualmente, joga no Bayern de Munique da Alemanha."></asp:Label>
+          </div>
+          <div class="slider-item">
+            <img src=".\Resources\player2.png" alt="SARGE GNABRY" class="player2" />
+            <asp:Label ID="Label42" runat="server" CssClass="slider_info" Text="Serge David Gnabry mais conhecido como Serge Gnabry ou somente Gnabry
+                    (Estugarda, 14 de julho de 1995) é um futebolista alemão que atua como ponta. 
+                    Atualmente, joga no Bayern de Munique da Alemanha."></asp:Label>
+          </div>
+           <div class="slider-item">
+            <img src=".\Resources\player2.png" alt="SARGE GNABRY" class="player2" />
+            <asp:Label ID="Label43" runat="server" CssClass="slider_info" Text="Serge David Gnabry mais conhecido como Serge Gnabry ou somente Gnabry
+                    (Estugarda, 14 de julho de 1995) é um futebolista alemão que atua como ponta. 
+                    Atualmente, joga no Bayern de Munique da Alemanha."></asp:Label>
+          </div>
+            <div class="slider-item">
+            <img src=".\Resources\player1.png" alt="THOMAS MULLER" class="player2" />
+            <asp:Label ID="Label44" runat="server" CssClass="slider_info" Text="Thomas Müller é um futebolista alemão que atua como meia ou atacante. 
+                    Atualmente joga no Bayern de Munique. 
+                    Considerado um dos grandes nomes da história do futebol alemão, 
+                    é o jogador em atividade com mais gols em Copas do Mundo FIFA, com 10 gols."></asp:Label>
+          </div>
+          <div class="slider-item">
+            <img src=".\Resources\player2.png" alt="SARGE GNABRY" class="player2" />
+            <asp:Label ID="Label45" runat="server" CssClass="slider_info" Text="Serge David Gnabry mais conhecido como Serge Gnabry ou somente Gnabry
+                    (Estugarda, 14 de julho de 1995) é um futebolista alemão que atua como ponta. 
+                    Atualmente, joga no Bayern de Munique da Alemanha."></asp:Label>
+          </div>
+          <div class="slider-item">
+            <img src=".\Resources\player2.png" alt="SARGE GNABRY" class="player2" />
+            <asp:Label ID="Label46" runat="server" CssClass="slider_info" Text="Serge David Gnabry mais conhecido como Serge Gnabry ou somente Gnabry
+                    (Estugarda, 14 de julho de 1995) é um futebolista alemão que atua como ponta. 
+                    Atualmente, joga no Bayern de Munique da Alemanha."></asp:Label>
+          </div>
+           <div class="slider-item">
+            <img src=".\Resources\player2.png" alt="SARGE GNABRY" class="player2" />
+            <asp:Label ID="Label47" runat="server" CssClass="slider_info" Text="Serge David Gnabry mais conhecido como Serge Gnabry ou somente Gnabry
+                    (Estugarda, 14 de julho de 1995) é um futebolista alemão que atua como ponta. 
+                    Atualmente, joga no Bayern de Munique da Alemanha."></asp:Label>
+          </div>
+            <div class="slider-item">
+            <img src=".\Resources\player1.png" alt="THOMAS MULLER" class="player2" />
+            <asp:Label ID="Label48" runat="server" CssClass="slider_info" Text="Thomas Müller é um futebolista alemão que atua como meia ou atacante. 
+                    Atualmente joga no Bayern de Munique. 
+                    Considerado um dos grandes nomes da história do futebol alemão, 
+                    é o jogador em atividade com mais gols em Copas do Mundo FIFA, com 10 gols."></asp:Label>
+          </div>
+          <div class="slider-item">
+            <img src=".\Resources\player2.png" alt="SARGE GNABRY" class="player2" />
+            <asp:Label ID="Label49" runat="server" CssClass="slider_info" Text="Serge David Gnabry mais conhecido como Serge Gnabry ou somente Gnabry
+                    (Estugarda, 14 de julho de 1995) é um futebolista alemão que atua como ponta. 
+                    Atualmente, joga no Bayern de Munique da Alemanha."></asp:Label>
+          </div>
+          <div class="slider-item">
+            <img src=".\Resources\player2.png" alt="SARGE GNABRY" class="player2" />
+            <asp:Label ID="Label50" runat="server" CssClass="slider_info" Text="Serge David Gnabry mais conhecido como Serge Gnabry ou somente Gnabry
+                    (Estugarda, 14 de julho de 1995) é um futebolista alemão que atua como ponta. 
+                    Atualmente, joga no Bayern de Munique da Alemanha."></asp:Label>
+          </div>
+           <div class="slider-item">
+            <img src=".\Resources\player2.png" alt="SARGE GNABRY" class="player2" />
+            <asp:Label ID="Label51" runat="server" CssClass="slider_info" Text="Serge David Gnabry mais conhecido como Serge Gnabry ou somente Gnabry
+                    (Estugarda, 14 de julho de 1995) é um futebolista alemão que atua como ponta. 
+                    Atualmente, joga no Bayern de Munique da Alemanha."></asp:Label>
+          </div>
+            <div class="slider-item">
+            <img src=".\Resources\player2.png" alt="SARGE GNABRY" class="player2" />
+            <asp:Label ID="Label52" runat="server" CssClass="slider_info" Text="Serge David Gnabry mais conhecido como Serge Gnabry ou somente Gnabry
+                    (Estugarda, 14 de julho de 1995) é um futebolista alemão que atua como ponta. 
+                    Atualmente, joga no Bayern de Munique da Alemanha."></asp:Label>
+          </div>
+        </div>
+      </section>
       </div>
       <div id="field">
         <img src=".\Resources\field.png" alt="fieldimg" id="field_img" />
@@ -286,5 +380,5 @@
   </body>
 </html>
 <style>
-  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 </style>
