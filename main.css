@@ -7,17 +7,16 @@
 #form1 {
     margin: 2em auto;
     height: 661px;
-    width: 1086px;
+    width: 1286px;
 }
-
 /*HEADER ELEMENTS*/
-
 #header {
-    /*background-color: yellow;*/
+    /*background-color: yellow;
+    */
     height: fit-content;
     width: 100%;
     margin-bottom: 3em;
-    margin-left:3px;
+    margin-left: 3px;
 }
 
 .rg {
@@ -26,9 +25,10 @@
     border-radius: 10px;
     width: auto;
     margin-right: 1em;
-    webkit-animation: glow 0.5s ease-in-out infinite alternate;
-    -moz-animation: glow 0.5s ease-in-out infinite alternate;
-    animation: glow 0.5s ease-in-out infinite alternate;
+    /*webkit-animation: glow 0.5s ease-in-out infinite alternate;
+     -moz-animation: glow 0.5s ease-in-out infinite alternate;
+     animation: glow 0.5s ease-in-out infinite alternate;
+    */
 }
 
 #Label1 {
@@ -40,11 +40,10 @@
 #Label2 {
     font-size: 14pt;
 }
-
 /*COACHES BOX*/
-
 #coaches {
-    /*background-color: lightcoral;*/
+    /*background-color: lightcoral;
+    */
     border: solid 2px black;
     border-radius: 10px;
     height: fit-content;
@@ -52,7 +51,8 @@
 }
 
 #coachbox {
-    /*background-color: lightblue;*/
+    /*background-color: lightblue;
+    */
     padding: 10px;
     width: auto;
     height: 5em;
@@ -81,13 +81,15 @@
 }
 
 .coachdesc {
-    /*background-color: lightpink;*/
+    /*background-color: lightpink;
+    */
     margin-left: 10px;
     line-height: 1em;
 }
 
 #subcoachbox {
-    /*background-color: lightgreen;*/
+    /*background-color: lightgreen;
+    */
     padding: 10px;
 }
 
@@ -107,9 +109,7 @@
     font-weight: 700;
     font-size: 16pt;
 }
-
 /*GAMES BOX*/
-
 #games {
     width: 380px;
     height: 310px;
@@ -117,9 +117,7 @@
     border: 2px solid black;
     border-radius: 10px;
 }
-
 /*FIELD AND ITS PLAYERS*/
-
 #elements {
     height: fit-content;
     width: fit-content;
@@ -132,7 +130,6 @@
     position: relative;
     top: 0px;
     left: 0px;
-   
 }
 
 #field_img {
@@ -153,13 +150,13 @@
     position: absolute;
     font-size: 8pt;
     font-weight: bold;
-    border-color:white;
+    border-color: white;
 }
 
 .player:hover {
     border: 3px solid yellow;
-    
 }
+
 .infos {
     display: block;
     opacity: 0;
@@ -191,245 +188,262 @@
     }
 }
 /* JOGADORES */
-
 #meiaofensa {
     left: 143px;
     top: 97px;
     background: white;
 }
+
 #Label7 {
     left: 122px;
     top: 78px;
 }
+
 #info_meiaofensa:hover #Label18 {
     animation: fade-in 3S forwards;
-    
 }
-
 
 #esqrofensa {
     left: 40px;
     top: 160px;
     background: white;
 }
+
 #Label8 {
     left: 30px;
     top: 145px;
 }
+
 #info_esqrofensa:hover #Label19 {
     animation: fade-in 3S forwards;
 }
-
 
 #direofensa {
     left: 255px;
     top: 160px;
     background: white;
 }
+
 #Label9 {
     left: 270px;
     top: 145px;
 }
+
 #info_direofensa:hover #Label20 {
     animation: fade-in 3S forwards;
 }
-
 
 #meiodefesa {
     left: 143px;
     top: 190px;
     background: white;
 }
+
 #Label10 {
     left: 142px;
     top: 175px;
 }
+
 #info_meiodefesa:hover #Label21 {
     animation: fade-in 3S forwards;
 }
-
 
 #volesquerdo {
     left: 70px;
     top: 260px;
     background: white;
 }
+
 #Label11 {
     left: 60px;
     top: 240px;
 }
+
 #info_volesquerdo:hover #Label22 {
     animation: fade-in 3S forwards;
 }
-
 
 #voldireito {
     left: 210px;
     top: 260px;
     background: white;
 }
+
 #Label12 {
     left: 220px;
     top: 240px;
 }
+
 #info_voldireito:hover #Label23 {
     animation: fade-in 3S forwards;
 }
-
 
 #latesquerdo {
     left: 22px;
     top: 350px;
     background: white;
 }
+
 #Label13 {
     left: 30px;
     top: 335px;
 }
+
 #info_latesquerdo:hover #Label24 {
     animation: fade-in 3S forwards;
 }
-
 
 #zagesquerdo {
     left: 100px;
     top: 370px;
     background: white;
 }
+
 #Label14 {
     left: 105px;
     top: 355px;
 }
+
 #info_zagesquerdo:hover #Label25 {
     animation: fade-in 3S forwards;
 }
-
 
 #zagdireito {
     left: 180px;
     top: 370px;
     background: white;
 }
+
 #Label15 {
     left: 190px;
     top: 355px;
 }
+
 #info_zagdireito:hover #Label26 {
     animation: fade-in 3S forwards;
 }
-
 
 #latdireito {
     left: 260px;
     top: 350px;
     background: white;
 }
+
 #Label16 {
     left: 265px;
     top: 335px;
 }
+
 #info_latdireito:hover #Label27 {
     animation: fade-in 3S forwards;
 }
-
 
 #goleiro {
     top: 455px;
     left: 143px;
     background: white;
 }
+
 #Label17 {
     left: 155px;
     top: 440px;
 }
+
 #info_goleiro:hover #Label28 {
     animation: fade-in 3S forwards;
 }
-
-
 /* CARROSSEL */
 .player2 {
     position: absolute;
-    border: 4px solid black;
-    border-radius: 70%;
+    border: 2px solid gray;
     height: auto;
-    width: 220px;
-    margin-left:10px;
+    width: 160px;
+    margin-left: 10px;
 }
+
 .slider_info {
     position: absolute;
-    width: 230px;
+    width: 290px;
     height: 2100px;
-    margin-left: 245px;
+    margin-left: 190px;
+    text-align: justify;
+    hyphens: auto;
 }
 
 .slider {
+    padding-top: 10px;
     max-height: 300px;
     overflow: hidden;
     position: absolute;
     width: 500px;
-    height: 250px;
+    height: 220px;
     border: 2px solid black;
-    border-radius: 10px;    
+    border-radius: 10px;
     margin-left: 780px
 }
 
-
-.btn {
+#buttons {
+    bottom: 0;
     position: absolute;
-    margin-top: 225px;
-
-  
-}
-#btn1{
-    
+    align-content: space-evenly;
+    margin: 0 0 10px 20%;
 }
 
-    .slider >  .slider-content {
-        display: flex;
-        flex-wrap: nowrap;
+.slider > .slider-content {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    transition: all 500ms ease;
+}
+
+    .slider > .slider-content > .slider-item {
+        flex: 0 0 auto;
         width: 100%;
-        transition: all 500ms ease;
     }
 
-        .slider > .slider-content > .slider-item {
-            flex: 0 0 auto;
-            width: 100%;
-        }
+.slider > input:nth-child(1):checked ~ .slider-content {
+    transform: translateX(0%);
+}
 
-    .slider > input:nth-child(1):checked ~ .slider-content {
-        transform: translateX(0%);
-    }
-    .slider > input:nth-child(2):checked ~ .slider-content {
-        transform: translateX(-100%);
-    }
-    .slider > input:nth-child(3):checked ~ .slider-content {
-        transform: translateX(-200%);
-    }
-    .slider > input:nth-child(4):checked ~ .slider-content {
-        transform: translateX(-300%);
-    }
-    .slider > input:nth-child(5):checked ~ .slider-content {
-        transform: translateX(-400%);
-    }
-    .slider > input:nth-child(6):checked ~ .slider-content {
-        transform: translateX(-500%);
-    }
-    .slider > input:nth-child(7):checked ~ .slider-content {
-        transform: translateX(-600%);
-    }
-    .slider > input:nth-child(8):checked ~ .slider-content {
-        transform: translateX(-700%);
-    }
-    .slider > input:nth-child(9):checked ~ .slider-content {
-        transform: translateX(-800%);
-    }
-    .slider > input:nth-child(10):checked ~ .slider-content {
-        transform: translateX(-900%);
-    }
-    .slider > input:nth-child(11):checked ~ .slider-content {
-        transform: translateX(-1000%);
-    }
+.slider > input:nth-child(2):checked ~ .slider-content {
+    transform: translateX(-100%);
+}
+
+.slider > input:nth-child(3):checked ~ .slider-content {
+    transform: translateX(-200%);
+}
+
+.slider > input:nth-child(4):checked ~ .slider-content {
+    transform: translateX(-300%);
+}
+
+.slider > input:nth-child(5):checked ~ .slider-content {
+    transform: translateX(-400%);
+}
+
+.slider > input:nth-child(6):checked ~ .slider-content {
+    transform: translateX(-500%);
+}
+
+.slider > input:nth-child(7):checked ~ .slider-content {
+    transform: translateX(-600%);
+}
+
+.slider > input:nth-child(8):checked ~ .slider-content {
+    transform: translateX(-700%);
+}
+
+.slider > input:nth-child(9):checked ~ .slider-content {
+    transform: translateX(-800%);
+}
+
+.slider > input:nth-child(10):checked ~ .slider-content {
+    transform: translateX(-900%);
+}
+
+.slider > input:nth-child(11):checked ~ .slider-content {
+    transform: translateX(-1000%);
+}
 
 #carrosel_subs {
     position: absolute;
@@ -438,8 +452,9 @@
     border: 2px solid black;
     border-radius: 10px;
     margin-left: 780px;
-    margin-top:280px
+    margin-top: 280px
 }
+
 @keyframes glow {
     from {
         text-shadow: 0 0 10px rgb(255, 0, 0), 0 0 20px #fff, 0 0 30px rgb(255, 0, 0), 0 0 40px rgb(255, 0, 0), 0 0 50px rgb(255, 0, 0), 0 0 60px rgb(255, 0, 0), 0 0 70px rgb(255, 0, 0);
@@ -449,8 +464,6 @@
         text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
     }
 }
-
-
 
 @keyframes glow {
     from {

@@ -180,6 +180,17 @@
     <Content Include="Resources\logo.png" />
     <Content Include="Resources\flag.png" />
     <Content Include="Resources\field.png" />
+    <Content Include="Resources\player1.png" />
+    <Content Include="Resources\player10.png" />
+    <Content Include="Resources\player11.jpg" />
+    <Content Include="Resources\player2.png" />
+    <Content Include="Resources\player3.png" />
+    <Content Include="Resources\player4.png" />
+    <Content Include="Resources\player5.png" />
+    <Content Include="Resources\player6.png" />
+    <Content Include="Resources\player7.png" />
+    <Content Include="Resources\player8.jpg" />
+    <Content Include="Resources\player9.png" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.js" />
