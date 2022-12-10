@@ -110,100 +110,56 @@
         </div>
       </section>
       <div id="carrosel_subs">
-            <section class="slider">
-        <input class="btn" name='slide2' type="radio" id="btn1" checked="checked" />
-        <input class="btn" name='slide2' type="radio" id="btn2" />
-        <input class="btn" name='slide2' type="radio" id="btn3" />
-        <input class="btn" name='slide2' type="radio" id="btn4" />
-        <input class="btn" name='slide2' type="radio" id="btn5" />
-        <input class="btn" name='slide2' type="radio" id="btn6" />
-        <input class="btn" name='slide2' type="radio" id="btn7" />
-        <input class="btn" name='slide2' type="radio" id="btn8" />
-        <input class="btn" name='slide2' type="radio" id="btn9" />
-        <input class="btn" name='slide2' type="radio" id="btn10" />
-        <input class="btn" name='slide2' type="radio" id="btn11" />
+          <div id="headersub">
+              
+          </div>
+       <section class="slider">
+        <input class="btn" name='slide2' type="radio" id="btn12" checked="checked" />
+        <input class="btn" name='slide2' type="radio" id="btn13" />
+        <input class="btn" name='slide2' type="radio" id="btn14" />
+        <input class="btn" name='slide2' type="radio" id="btn15" />
+        <input class="btn" name='slide2' type="radio" id="btn16" />
+        <input class="btn" name='slide2' type="radio" id="btn17" />
+        <input class="btn" name='slide2' type="radio" id="btn18" />
+        <input class="btn" name='slide2' type="radio" id="btn19" />
+        <input class="btn" name='slide2' type="radio" id="btn20" />
               
         <div class="slider-content">
-          <div class="slider-item">
-            <img src=".\Resources\player1.png" alt="THOMAS MULLER" class="player2" />
-            <asp:Label ID="Label40" runat="server" CssClass="slider_info" Text="Thomas Müller é um futebolista alemão que atua como meia ou atacante. 
-                    Atualmente joga no Bayern de Munique. 
-                    Considerado um dos grandes nomes da história do futebol alemão, 
-                    é o jogador em atividade com mais gols em Copas do Mundo FIFA, com 10 gols."></asp:Label>
+            <div class="slider-item">
+            <img src=".\Resources\player17.png" alt="THILO KEHRER" class="player2" />
+            <asp:Label ID="Label49" runat="server" CssClass="slider_info" Text="Thilo Kehrer é um futebolista alemão que atua como zagueiro e lateral-direito. Atualmente defende o West Ham."></asp:Label>
           </div>
           <div class="slider-item">
-            <img src=".\Resources\player2.png" alt="SARGE GNABRY" class="player2" />
-            <asp:Label ID="Label41" runat="server" CssClass="slider_info" Text="Serge David Gnabry mais conhecido como Serge Gnabry ou somente Gnabry
-                    (Estugarda, 14 de julho de 1995) é um futebolista alemão que atua como ponta. 
-                    Atualmente, joga no Bayern de Munique da Alemanha."></asp:Label>
+            <img src=".\Resources\player12.png" alt="MARC ANDRE TER STEGEN" class="player2" />
+            <asp:Label ID="Label44" runat="server" CssClass="slider_info" Text="Marc-André ter Stegen escutar é um futebolista alemão que atua como goleiro. Integrou o Borussia Mönchengladbach desde as categorias de base. Estreou na Bundesliga em 10 de abril de 2011 em partida contra o Colônia, tinha dezoito anos de idade. Atualmente defende o Barcelona e a Seleção Alemã."></asp:Label>
           </div>
           <div class="slider-item">
-            <img src=".\Resources\player2.png" alt="SARGE GNABRY" class="player2" />
-            <asp:Label ID="Label42" runat="server" CssClass="slider_info" Text="Serge David Gnabry mais conhecido como Serge Gnabry ou somente Gnabry
-                    (Estugarda, 14 de julho de 1995) é um futebolista alemão que atua como ponta. 
-                    Atualmente, joga no Bayern de Munique da Alemanha."></asp:Label>
+            <img src=".\Resources\player13.png" alt="KEVIN TRAPP" class="player2" />
+            <asp:Label ID="Label45" runat="server" CssClass="slider_info" Text="Kevin Trapp (Merzig, 8 de julho de 1990) é um futebolista alemão que atua como goleiro. Atualmente joga pelo Eintracht Frankfurt. Kevin Trapp foi convocado em 2017 para a realização de amistosos, foi titular em partidas disputadas contra a França e Dinamarca resultando em dois empates respectivamente."></asp:Label>
+          </div>
+          <div class="slider-item">
+            <img src=".\Resources\player14.png" alt="NICLAS FULLKRUG" class="player2" />
+            <asp:Label ID="Label46" runat="server" CssClass="slider_info" Text="Niclas Füllkrug (Hanôver, 9 de fevereiro de 1993) é um futebolista profissional alemão que atua como atacante. Atualmente, defende o Werder Bremen. Füllkrug foi contratado pelo Hannover 96 em julho de 2016. Marcou um hat-trick na vitória sobre o Mainz 05 por 3–2. Foi o terceiro futebolista com mais gols na Bundesliga de 2017–18."></asp:Label>
+          </div>
+          <div class="slider-item">
+            <img src=".\Resources\player15.png" alt="CHRISTIAN GUNTER" class="player2" />
+            <asp:Label ID="Label47" runat="server" CssClass="slider_info" Text="Christian Günter é um futebolista profissional alemão que atua como defensor."></asp:Label>
+          </div>
+          <div class="slider-item">
+            <img src=".\Resources\player16.png" alt="LUKAS KLOSTERMANN" class="player2" />
+            <asp:Label ID="Label48" runat="server" CssClass="slider_info" Text="Lukas Manuel Klostermann (Herdecke, 3 de junho de 1996) é um futebolista alemão que atua como lateral-direito. Atualmente joga no RB Leipzig. Klostermann fez parte do elenco da Seleção Alemã que disputou as Olimpíadas de 2016."></asp:Label>
           </div>
            <div class="slider-item">
-            <img src=".\Resources\player2.png" alt="SARGE GNABRY" class="player2" />
-            <asp:Label ID="Label43" runat="server" CssClass="slider_info" Text="Serge David Gnabry mais conhecido como Serge Gnabry ou somente Gnabry
-                    (Estugarda, 14 de julho de 1995) é um futebolista alemão que atua como ponta. 
-                    Atualmente, joga no Bayern de Munique da Alemanha."></asp:Label>
+            <img src=".\Resources\player18.png" alt="ARMEL BELLA KOTCHAP" class="player2" />
+            <asp:Label ID="Label50" runat="server" CssClass="slider_info" Text="Armel Bella-Kotchap é um futebolista profissional alemão que joga como zagueiro do Southampton e da seleção alemã."></asp:Label>
+          </div>
+          <div class="slider-item">
+            <img src=".\Resources\player19.png" alt="MATTHIAS GINTER" class="player2" />
+            <asp:Label ID="Label51" runat="server" CssClass="slider_info" Text="Matthias Lukas Ginter (Friburgo em Brisgóvia, 19 de janeiro de 1994) é um futebolista alemão que atua como zagueiro. Atualmente defende o Sport-Club Freiburg. Foi selecionado pela primeira vez para a Seleção Alemã de Futebol no amistoso contra o Chile em 5 de março de 2014."></asp:Label>
           </div>
             <div class="slider-item">
-            <img src=".\Resources\player1.png" alt="THOMAS MULLER" class="player2" />
-            <asp:Label ID="Label44" runat="server" CssClass="slider_info" Text="Thomas Müller é um futebolista alemão que atua como meia ou atacante. 
-                    Atualmente joga no Bayern de Munique. 
-                    Considerado um dos grandes nomes da história do futebol alemão, 
-                    é o jogador em atividade com mais gols em Copas do Mundo FIFA, com 10 gols."></asp:Label>
-          </div>
-          <div class="slider-item">
-            <img src=".\Resources\player2.png" alt="SARGE GNABRY" class="player2" />
-            <asp:Label ID="Label45" runat="server" CssClass="slider_info" Text="Serge David Gnabry mais conhecido como Serge Gnabry ou somente Gnabry
-                    (Estugarda, 14 de julho de 1995) é um futebolista alemão que atua como ponta. 
-                    Atualmente, joga no Bayern de Munique da Alemanha."></asp:Label>
-          </div>
-          <div class="slider-item">
-            <img src=".\Resources\player2.png" alt="SARGE GNABRY" class="player2" />
-            <asp:Label ID="Label46" runat="server" CssClass="slider_info" Text="Serge David Gnabry mais conhecido como Serge Gnabry ou somente Gnabry
-                    (Estugarda, 14 de julho de 1995) é um futebolista alemão que atua como ponta. 
-                    Atualmente, joga no Bayern de Munique da Alemanha."></asp:Label>
-          </div>
-           <div class="slider-item">
-            <img src=".\Resources\player2.png" alt="SARGE GNABRY" class="player2" />
-            <asp:Label ID="Label47" runat="server" CssClass="slider_info" Text="Serge David Gnabry mais conhecido como Serge Gnabry ou somente Gnabry
-                    (Estugarda, 14 de julho de 1995) é um futebolista alemão que atua como ponta. 
-                    Atualmente, joga no Bayern de Munique da Alemanha."></asp:Label>
-          </div>
-            <div class="slider-item">
-            <img src=".\Resources\player1.png" alt="THOMAS MULLER" class="player2" />
-            <asp:Label ID="Label48" runat="server" CssClass="slider_info" Text="Thomas Müller é um futebolista alemão que atua como meia ou atacante. 
-                    Atualmente joga no Bayern de Munique. 
-                    Considerado um dos grandes nomes da história do futebol alemão, 
-                    é o jogador em atividade com mais gols em Copas do Mundo FIFA, com 10 gols."></asp:Label>
-          </div>
-          <div class="slider-item">
-            <img src=".\Resources\player2.png" alt="SARGE GNABRY" class="player2" />
-            <asp:Label ID="Label49" runat="server" CssClass="slider_info" Text="Serge David Gnabry mais conhecido como Serge Gnabry ou somente Gnabry
-                    (Estugarda, 14 de julho de 1995) é um futebolista alemão que atua como ponta. 
-                    Atualmente, joga no Bayern de Munique da Alemanha."></asp:Label>
-          </div>
-          <div class="slider-item">
-            <img src=".\Resources\player2.png" alt="SARGE GNABRY" class="player2" />
-            <asp:Label ID="Label50" runat="server" CssClass="slider_info" Text="Serge David Gnabry mais conhecido como Serge Gnabry ou somente Gnabry
-                    (Estugarda, 14 de julho de 1995) é um futebolista alemão que atua como ponta. 
-                    Atualmente, joga no Bayern de Munique da Alemanha."></asp:Label>
-          </div>
-           <div class="slider-item">
-            <img src=".\Resources\player2.png" alt="SARGE GNABRY" class="player2" />
-            <asp:Label ID="Label51" runat="server" CssClass="slider_info" Text="Serge David Gnabry mais conhecido como Serge Gnabry ou somente Gnabry
-                    (Estugarda, 14 de julho de 1995) é um futebolista alemão que atua como ponta. 
-                    Atualmente, joga no Bayern de Munique da Alemanha."></asp:Label>
-          </div>
-            <div class="slider-item">
-            <img src=".\Resources\player2.png" alt="SARGE GNABRY" class="player2" />
-            <asp:Label ID="Label52" runat="server" CssClass="slider_info" Text="Serge David Gnabry mais conhecido como Serge Gnabry ou somente Gnabry
-                    (Estugarda, 14 de julho de 1995) é um futebolista alemão que atua como ponta. 
-                    Atualmente, joga no Bayern de Munique da Alemanha."></asp:Label>
+            <img src=".\Resources\player20.png" alt="NICO SCHLOTTERBECK" class="player2" />
+            <asp:Label ID="Label40" runat="server" CssClass="slider_info" Text="Nico Schlotterbeck (Waiblingen, 1 de dezembro de 1999) é um futebolista profissional alemão que atua como zagueiro do Borussia Dortmund e da seleção alemã.Schlotterbeck estreou pelo SC Freiburg em 9 de março de 2019, substituindo no intervalo Philipp Lienhart, na vitória por 2 a 1 em casa contra o Hertha BSC."></asp:Label>
           </div>
         </div>
       </section>

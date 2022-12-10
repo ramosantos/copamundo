@@ -183,7 +183,16 @@
     <Content Include="Resources\player1.png" />
     <Content Include="Resources\player10.png" />
     <Content Include="Resources\player11.jpg" />
+    <Content Include="Resources\player12.png" />
+    <Content Include="Resources\player13.png" />
+    <Content Include="Resources\player14.png" />
+    <Content Include="Resources\player15.png" />
+    <Content Include="Resources\player16.png" />
+    <Content Include="Resources\player17.png" />
+    <Content Include="Resources\player18.png" />
+    <Content Include="Resources\player19.png" />
     <Content Include="Resources\player2.png" />
+    <Content Include="Resources\player20.png" />
     <Content Include="Resources\player3.png" />
     <Content Include="Resources\player4.png" />
     <Content Include="Resources\player5.png" />
