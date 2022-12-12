@@ -89,23 +89,23 @@
           </div>
           <div class="slider-item">
             <img src=".\Resources\player7.png" alt="D.RAUM" class="player2" />
-            <asp:Label ID="Label35" runat="server" CssClass="slider_info" Text="Label"></asp:Label>
+            <asp:Label ID="Label35" runat="server" CssClass="slider_info" Text="David Raum é um futebolista profissional alemão que joga como meio- campista esquerdo ou lateral esquerdo no clube da Bundesliga RB Leipzig e na seleção alemã"></asp:Label>
           </div>
           <div class="slider-item">
-            <img src=".\Resources\player8.jpg" alt="RUDIGER" class="player2" />
-            <asp:Label ID="Label36" runat="server" CssClass="slider_info" Text="Label"></asp:Label>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPcnIeq9LVxdyDspym37WXYZJmV-1lSXH1aw&usqp=CAU" alt="RUDIGER" class="player2" />
+            <asp:Label ID="Label36" runat="server" CssClass="slider_info" Text="Antonio Rüdiger é um futebolista alemão que atua como zagueiro. Atualmente joga no Real Madrid."></asp:Label>
           </div>
           <div class="slider-item">
-            <img src=".\Resources\player9.png" alt="NICOLAS SUELE" class="player2" />
-            <asp:Label ID="Label37" runat="server" CssClass="slider_info" Text="Label"></asp:Label>
+            <img src="https://img.a.transfermarkt.technology/portrait/big/166601-1661412949.jpg?lm=1" alt="NICOLAS SUELE" class="player2" />
+            <asp:Label ID="Label37" runat="server" CssClass="slider_info" Text="Niklas Süle, é um futebolista profissional alemão que atua como zagueiro. Atualmente, joga pelo Borussia Dortmund."></asp:Label>
           </div>
           <div class="slider-item">
             <img src=".\Resources\player10.png" alt="KIMMICH" class="player2" />
-            <asp:Label ID="Label38" runat="server" CssClass="slider_info" Text="Label"></asp:Label>
+            <asp:Label ID="Label38" runat="server" CssClass="slider_info" Text="Joshua Walter Kimmich, é um futebolista alemão que atua como volante e lateral-direito. Atualmente, joga pelo Bayern de Munique. "></asp:Label>
           </div>
           <div class="slider-item">
-            <img src=".\Resources\player11.jpg" alt="MANUEL NUER" class="player2" />
-            <asp:Label ID="Label39" runat="server" CssClass="slider_info" Text="Label"></asp:Label>
+            <img src="https://i.ibb.co/bNtC2V6/image.png" alt="MANUEL NUER" class="player2" />
+            <asp:Label ID="Label39" runat="server" CssClass="slider_info" Text="Manuel Peter Neuer é um futebolista alemão que atua como goleiro. Atualmente defende o Bayern de Munique e a Seleção Alemã."></asp:Label>
           </div>
         </div>
       </section>
