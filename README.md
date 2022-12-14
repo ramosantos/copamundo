@@ -1,5 +1,8 @@
 # copamundo
 
+## fim de ano, né
+o projeto foi, enfim, enviado e muitas coisas pendentes no projeto deixaram de ser relevantes. depois que a alemanha e o brasil perderam, restando, agora, argentina, frança e marrocos, meio que... perdeu a graça continuar. nem sei (gabriel) se algo aqui será usado posteriormente, talvez o uso de ``float`` e a própria organização pelo *github*. **isso aqui tá arquivado agora**.
+
 ## requisitos
 
 | programa  | versão |
